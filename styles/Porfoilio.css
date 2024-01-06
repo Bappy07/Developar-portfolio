@@ -8,15 +8,17 @@ body{
 .btn-primary{
     border: 0;
     color: white;
+    margin: 10px;
     font-size: 20px;
     font-weight: 700;
-    padding: 15px 35px;
+    padding: 10px 35px;
     border-radius: 5px;
     background: #c7ea46}
 nav{
     display: flex;
     justify-content: space-between; 
     align-items: center;
+    margin: 0px 200px;
 }
 }
 .nav-title{
@@ -28,7 +30,6 @@ nav > ul{
     display: flex;
     align-items: center;
     
-    
 }
 nav  li{
     list-style: none;
@@ -37,4 +38,16 @@ nav  li{
 nav a{
     text-decoration: none;
     color:green;
+}
+
+.header{
+    background-color: #d0f0c0;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .portfolio-pic{
+    width: 500px;
 }
